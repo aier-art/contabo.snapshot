@@ -9,7 +9,7 @@ if [ $(date '+%e') -eq 22 ]; then
   git add .date
   git config --local user.email "bot@users.noreply.github.com"
   git config --local user.name "bot"
-  git commit -m "^" && echo "push=1" >>$GITHUB_OUTPUT || exit 0
+  git commit -m "^" && echo "push=1" >>$GITHUB_OUTPUT || true
 fi
 pnpm install --production
 ./run.sh
