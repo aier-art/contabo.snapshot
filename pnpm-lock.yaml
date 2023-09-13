@@ -12,13 +12,13 @@ dependencies:
     specifier: ^0.0.3
     version: 0.0.3
   uuid:
-    specifier: ^9.0.0
-    version: 9.0.0
+    specifier: ^9.0.1
+    version: 9.0.1
 
 devDependencies:
   '@w5/coffee_plus':
-    specifier: ^0.0.13
-    version: 0.0.13
+    specifier: ^0.0.17
+    version: 0.0.17
 
 packages:
 
@@ -38,8 +38,8 @@ packages:
       yargs: 17.7.1
     dev: false
 
-  /@w5/coffee_plus@0.0.13:
-    resolution: {integrity: sha512-pCrXApQwRMJ8t+lRb+lOpSEI2/qPjMng+c5ZxF6VbX/cIWTnqwOmKrF7v01cFmY5qzFzOq5/8jJmkspyAcI4Rg==}
+  /@w5/coffee_plus@0.0.17:
+    resolution: {integrity: sha512-7py6N46yyQTnD2seGQ2K226EatmKq2SzEYQ/UI4E7AgrubG8bt87vQ2jnLQI1mDlVyJOydbvZRAto6l5I4/oPQ==}
     hasBin: true
     dependencies:
       '@w5/camel': 0.0.1
@@ -48,7 +48,7 @@ packages:
       '@w5/write': 0.0.1
       fs-extra: 11.1.1
       lodash-es: 4.17.21
-      yargs: 17.7.1
+      yargs: 17.7.2
     dev: true
 
   /@w5/jsext@0.0.1:
@@ -159,8 +159,8 @@ packages:
     resolution: {integrity: sha512-hAZsKq7Yy11Zu1DE0OzWjw7nnLZmJZYTDZZyEFHZdUhV8FkH5MCfoU1XMaxXovpyW5nq5scPqq0ZDP9Zyl04oQ==}
     engines: {node: '>= 10.0.0'}
 
-  /uuid@9.0.0:
-    resolution: {integrity: sha512-MXcSTerfPa4uqyzStbRoTgt5XIe3x5+42+q1sDuy3R5MDk66URdLMOZe5aPX/SQd+kuYAh0FdP/pO28IkQyTeg==}
+  /uuid@9.0.1:
+    resolution: {integrity: sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==}
     hasBin: true
     dev: false
 
@@ -191,3 +191,17 @@ packages:
       string-width: 4.2.3
       y18n: 5.0.8
       yargs-parser: 21.1.1
+    dev: false
+
+  /yargs@17.7.2:
+    resolution: {integrity: sha512-7dSzzRQ++CKnNI/krKnYRV7JKKPUXMEh61soaHKg9mrWEhzFWhFnxPxGl+69cD1Ou63C13NUPCnmIcrvqCuM6w==}
+    engines: {node: '>=12'}
+    dependencies:
+      cliui: 8.0.1
+      escalade: 3.1.1
+      get-caller-file: 2.0.5
+      require-directory: 2.1.1
+      string-width: 4.2.3
+      y18n: 5.0.8
+      yargs-parser: 21.1.1
+    dev: true

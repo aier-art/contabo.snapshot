@@ -12,4 +12,6 @@ if [ $(date '+%e') -eq 22 ]; then
   git commit -m "^" && echo "push=1" >>$GITHUB_OUTPUT || true
 fi
 pnpm install --production
+
+export NODE_TLS_REJECT_UNAUTHORIZED=0
 ./run.sh
